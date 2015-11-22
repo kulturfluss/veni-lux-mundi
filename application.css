@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #333;
+}
+
+a {
+  color: #23527c;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 4rem 0;
+}
+
+.navigation a {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.navigation a:first-child {
+  padding-left: 0;
+}
+
+.header {
+  background-color: rgb(252,243,239);
+  font-weight: 300;
+}
+
+.header img {
+  width: 350px;
+  height: 350px;
+}
+
+.content-container .content:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.footer {
+  margin: 6rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #aaa;
+}
+
+.artist {
+  display: flex;
+  padding: 1rem 0;
+}
+.artist img {
+  flex: 0 0 6rem;
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+}
+.artist__name {
+  display: block;
+  font-weight: bold;
+}
+.artist__instrument {
+  font-size: 0.875rem;
+  font-style: italic;
+}
+
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+.date {
+  flex: 0 0 40%;
+}
+
+.date__location {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.date__address {
+  margin-top: 1rem;
+}
