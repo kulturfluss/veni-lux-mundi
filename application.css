@@ -23,9 +23,13 @@ a {
   padding: 4rem 0;
 }
 
+.navigation .container {
+  padding: 1.5rem 0;
+}
+
 .navigation a {
   display: inline-block;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 .navigation a:first-child {
